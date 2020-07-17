@@ -63,14 +63,10 @@ export default function App() {
                 testID={`repository-likes-${item.id}`}
               >
               {item.likes === 1 &&
-                <>
-                  1 curtida
-                </>              
+                  `1 curtida`
               }
               {item.likes > 1 &&
-                <>
-                  {item.likes} curtidas
-                </>
+                  `${item.likes} curtidas`
               }            
               
               </Text>
